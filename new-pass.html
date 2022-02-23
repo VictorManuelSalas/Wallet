@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./icon/account_balance_wallet_black_24dp.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/rest-pass.css" />
+    <title>App Wallet-New Password</title>
+  </head>
+  <style>
+    form #submit {
+      width: fit-content;
+      padding: 0.5% 1.5%;
+    }
+  </style>
+  <body>
+    <!--<span class="material-icons-round"> arrow_back_ios </span> -->
+    <center>
+      <h1>Nueva Contraseña</h1>
+      <p>
+        Para mayor seguridad se recomienda usar una contraseña que contenga
+        <br />
+        caracteres y letras minusculas y mayusculas
+      </p>
+      <br />
+      <br />
+      <form action="./login.html">
+        <label for="pass-new">Crear nueva contraseña:</label> <br />
+        <input type="text" id="pass-new" placeholder="usuario@gmail.com" />
+        <br />
+        <label for="pass-ver">Verifique contraseña:</label> <br />
+        <input type="text" id="pass-ver" placeholder="******" />
+        <br />
+        <input id="submit" type="submit" value="Establecer Contraseña" />
+      </form>
+      <br />
+    </center>
+
+    <script>
+      document.getElementById('submit').onclick = function () {
+        alert("¡¡¡Contraseña actualizada correctamente!!!");
+      };
+    </script>
+  </body>
+</html>

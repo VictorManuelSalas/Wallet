@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./icon/account_balance_wallet_black_24dp.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>App Wallet Registar</title>
+  </head>
+  <style>
+    #checkbox {
+      width: 20px;
+      height: 20px;
+      margin: 1%;
+      background-color: white;
+    }
+    h2 {
+      margin: 0% 0% 5% 0%;
+      height: 65px;
+      left: 97px;
+      font-family: "Parisienne", cursive;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 78px;
+      line-height: 65px;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
+  </style>
+  <body>
+    <!--<span class="material-icons-round"> arrow_back_ios </span> -->
+    <center>
+      <h1>My Wallet</h1>
+      <span class="material-icons-round"> account_balance_wallet </span>
+      <h2>Account</h2>
+      <form action="./code-email.html">
+        <label for="name">Nombre:</label> <br />
+        <input type="text" id="name" placeholder="usuario" />
+        <br />
+        <label for="lastname">Appelidos:</label> <br />
+        <input type="text" id="lastname" placeholder="apellido(s)" />
+        <br />
+        <label for="birthday">Fecha de Nacimeinto:</label> <br />
+        <input type="date" id="birthday" />
+        <br />
+        <label for="email">Correo Electronico:</label> <br />
+        <input type="email" id="email" placeholder="******@gmail.com" />
+        <br />
+        <label for="cel-number">Telefono Celular:</label> <br />
+        <input type="text" id="cel-number" placeholder="+52 (8711) 126 655" />
+        <br />
+        <label for="txt-pass">Crear Contraseña:</label> <br />
+        <input type="text" id="txt-pass" placeholder="********" />
+        <br />
+        <label for="pass">Verifica Contraseña:</label> <br />
+        <input type="password" id="pass" placeholder="********" />
+        <br />
+
+        <input
+          id="checkbox"
+          type="checkbox"
+          name="terminos"
+          id="terminos"
+        />Terminos y Condiciones
+        <br />
+        <input id="submit" type="submit" value="Registar" />
+      </form>
+
+      <br />
+      <p>-------------------------- Or --------------------------</p>
+      <br />
+      <div class="redes-log">
+        <a href="#"><i class="bi bi-google"></i></a>
+        <a href="#"><i class="bi bi-apple"></i></a>
+        <a href="#"><i class="bi bi-microsoft"></i></a>
+      </div>
+    </center>
+  </body>
+</html>

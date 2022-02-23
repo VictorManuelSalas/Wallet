@@ -1,0 +1,15 @@
+form {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.63);
+    margin: 3% 0% 5% 0%;
+    border-radius: 3%;
+    padding: 1% 0% 5% 0%;
+}
+.code{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.code input{
+    width: 20%;
+}

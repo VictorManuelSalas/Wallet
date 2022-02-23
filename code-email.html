@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./icon/account_balance_wallet_black_24dp.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/code-email.css" />
+    <title>App Wallet</title>
+  </head>
+  <body>
+    <!--<span class="material-icons-round"> arrow_back_ios </span> -->
+    <center>
+      <form action="./login.html">
+
+        <span class="material-icons-round"> forward_to_inbox </span>
+
+        <p>
+          Se ha enviado un codigo de verificacion al correoelectronico que se
+          <br />
+          utilizo para crear la cuenta, favor de ingresarlo tal cual como se le
+          ha enviado.
+        </p>
+        <br />
+        <br />
+        <div class="code">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </div>
+
+        <br />
+        <input id="submit" type="submit" value="Verificar" />
+      </form>
+    </center>
+
+    <script>
+        document.getElementById('submit').onclick = function () {
+          alert("¡¡¡Cuenta Verificada Correctamente!!!");
+        };
+      </script>
+  </body>
+</html>

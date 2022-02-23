@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/f-original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+center {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+/*
+.material-icons-round:first-of-type {
+    font-size: 50px;
+    color: white;
+    
+    padding: 2% 2% 0% 10%;
+}*/
+.material-icons-round {
+    font-size: 90px;
+    color: white;
+    margin: 1% 0% 3% 0%;
+}
+
+h1 {
+    margin: 5% 0% 1% 0%;
+    height: 65px;
+    left: 97px;
+    font-family: 'Parisienne', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 78px;
+    line-height: 65px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+form {
+    color: white;
+    height: fit-content;
+}
+form label {
+    font-size: 1.7rem;
+    position: absolute;
+    left: 35%;
+    font-family: Crimson Pro;
+    height: 10%;
+}
+form input {
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: Crimson Pro;
+    width: 30%;
+    height: 10%;
+    padding: 0.5%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px 5px 4px #000000;
+    margin: 2% 0%;
+}
+form a{
+    font-size: 2rem;
+    color: white;
+}
+form a:hover{
+    color: blue;
+}
+form #submit {
+    background: linear-gradient(90deg, #9400D3 0%, #4B0082 100%);
+    font-size: 2rem;
+    font-family: Crimson Pro;
+    width: 15%;
+    height: 10%;
+    cursor: pointer;
+    padding: 0.5%;
+    color: white;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    box-shadow: 0px 5px 4px #000000;
+    margin: 1% 0%;
+}
+p{
+    margin-top: 1%;
+    color: white;
+    font-size: 30px;
+}
+.redes-log{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 1% ;
+}
+.redes-log a i{
+    font-size: 70px;
+    color: white;
+    margin: auto 4%;
+}
+
